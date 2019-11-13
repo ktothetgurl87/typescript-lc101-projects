@@ -9,10 +9,10 @@ let kilometersToTheMoon: number = 384400;
 let milesPerKilometer: number = 0.621;
 
 // Code part 2 here:
-let milesToMars: number:  kilometersToMars*milesPerKilometer;
-let hoursToMars: number: milesToMars/speedMph;
-let daysToMars: number: hoursToMars/24;
+let milesToMars: number=  kilometersToMars*milesPerKilometer;
+let hoursToMars: number= milesToMars/speedMph;
+let daysToMars: number= hoursToMars/24;
 
 
 // Code the output statement here (use a template literal):
-console.log(`It takes ${spacecraftName} ${daysToMars} to get to Marks.`);
+console.log(`${spacecraftName} would take ${daysToMars} to get to Mars.`);
